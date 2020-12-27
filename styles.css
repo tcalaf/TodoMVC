@@ -27,11 +27,9 @@
 	width: 33vw;
 	height: 6vh;
 	border-bottom: 1px solid lightgray;
-	/*background-color: orange;*/
 }
 
 .app-select-all {
-	/*background-color: lightcoral;*/
 	margin-left: 0.5vw;
 	margin-right: 1.4vw;
 }
@@ -54,7 +52,6 @@
 	font-size: 150%;
 	width: 26vw;
 	font-family: "Times New Roman", Times, serif;
-	/*background-color: lightblue;*/
 }
 
 .app-todo-paragraph {
@@ -62,7 +59,6 @@
 	width: 26vw;
 	display: block;
 	text-align: left;
-	/*background-color: red;*/
 }
 
 ::placeholder {
@@ -77,7 +73,6 @@
     justify-content: space-between;
     font-size: 160%;
     border-bottom: 1px solid lightgray;
-	/*background-color: pink;*/
 	padding-top: 1vh;
 	padding-bottom: 1vh;
     width: 33vw;
@@ -113,14 +108,12 @@
 
 .elements-left {
 	color:rgb(167, 47, 83);
-	/*background-color: red;*/
 	width: 6vw;
 	padding-left: 0.6vw;
 }
 
 .app-details-buttons {
 	display: flex;
-	/*background-color: blue;*/
 	width:21vw;
 	padding-left: 5vw;
 	padding-right: 2.4vw;
@@ -131,7 +124,6 @@
 .app-button-all, .app-button-active, .app-button-completed, .app-button-clear-completed {
 	color:rgb(167, 47, 83);
 	cursor: pointer;
-	/*background-color:pink;*/
 }
 
 .app-button-all {
@@ -148,7 +140,6 @@
 
 .app-button-clear-completed {
 	width: 6vw;
-	/*background-color: green;*/
 }
 
 .app-button-clear-completed:hover {
@@ -159,6 +150,7 @@
 	font-size: 1.6rem;
 	color: #4D4D4D;
 	font-family: "Times New Roman", Times, serif;
+	width: 26vw;
 }
 
 .github-link {

@@ -1,0 +1,189 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+
+.app-title {
+	font-size: 600%;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: #dfcfc4;
+	padding-top: 1vh;
+	margin-bottom: 2vh;
+	width: 33vw;
+	text-align: center;
+}
+
+.app-input-container {
+	display: flex;
+	align-items: center;
+	width: 33vw;
+	height: 6vh;
+	border-bottom: 1px solid lightgray;
+	/*background-color: orange;*/
+}
+
+.app-select-all {
+	/*background-color: lightcoral;*/
+	margin-left: 0.5vw;
+	margin-right: 1.4vw;
+}
+
+.select-all-button {
+	border-radius: 50%;
+	width: 2vw;
+	height: 2vh;
+}
+
+.arrow {
+	border: solid red;
+	border-width: 0 3px 3px 0;
+	display: inline-block;
+	padding: 3px;
+}
+
+.app-input {
+	outline: none;
+	font-size: 150%;
+	width: 26vw;
+	font-family: "Times New Roman", Times, serif;
+	/*background-color: lightblue;*/
+}
+
+.app-todo-paragraph {
+	word-wrap: break-word;
+	width: 26vw;
+	display: block;
+	text-align: left;
+	/*background-color: red;*/
+}
+
+::placeholder {
+    font-style: italic;
+    text-align: center;
+    color: #877f7f;
+    opacity: 0.5;
+}
+
+.app-todo-element {
+    display: flex;
+    justify-content: space-between;
+    font-size: 160%;
+    border-bottom: 1px solid lightgray;
+	/*background-color: pink;*/
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+    width: 33vw;
+	color: #4D4D4D;
+	align-items: center;
+}
+
+.app-todo-input {
+	height: 1.5vh;
+	width: 3vw;
+}
+
+.app-todo-delete {
+	opacity: 0;
+	color:rgb(201, 85, 85);
+	width: 2.2vw;
+	height: 2.5vh;
+	font-size: 80%;
+}
+
+.app-details-box {
+	font-size: 120%;
+	text-align: center;
+	width: 33vw;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+	align-items: center;
+	box-sizing: border-box;
+	box-shadow: 0 1px rgba(0, 0, 0, 0.2), 0 7px 0 -3px rgb(255,255,255), 0 8px 0 -3px rgba(0, 0, 0, 0.2), 0 14px 0 -6px rgb(255,255,255), 0 15px 0 -6px rgba(0, 0, 0, 0.2);
+}
+
+.elements-left {
+	color:rgb(167, 47, 83);
+	/*background-color: red;*/
+	width: 6vw;
+	padding-left: 0.6vw;
+}
+
+.app-details-buttons {
+	display: flex;
+	/*background-color: blue;*/
+	width:21vw;
+	padding-left: 5vw;
+	padding-right: 2.4vw;
+	box-sizing: border-box;
+	justify-content: space-between;
+}
+
+.app-button-all, .app-button-active, .app-button-completed, .app-button-clear-completed {
+	color:rgb(167, 47, 83);
+	cursor: pointer;
+	/*background-color:pink;*/
+}
+
+.app-button-all {
+	width: 2.8vw;
+}
+
+.app-button-active {
+	width: 3vw;
+}
+
+.app-button-completed {
+	width: 4vw;
+}
+
+.app-button-clear-completed {
+	width: 6vw;
+	/*background-color: green;*/
+}
+
+.app-button-clear-completed:hover {
+	text-decoration: underline;
+}
+
+.editInput {
+	font-size: 1.6rem;
+	color: #4D4D4D;
+	font-family: "Times New Roman", Times, serif;
+}
+
+.github-link {
+	margin-top: 1.4vh;
+	margin-left: 26vw;
+	font-size:1.5vh;
+	color:black;
+}
+
+@keyframes increaseOpacity {
+	from {opacity: 0.3} 
+	to {opacity: 1}
+}
+
+@keyframes decreaseOpacity {
+	from {opacity: 1} 
+	to {opacity: 0.3}	
+}
+
+@keyframes arrowDown {
+	from {transform: rotate(-45deg)}
+	to {transform: rotate(45deg)}
+}
+
+@keyframes arrowRight {
+	from {transform: rotate(45deg)}
+	to {transform: rotate(-45deg)}
+}

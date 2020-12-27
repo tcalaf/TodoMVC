@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>To-Do List App</title>
+</head>
+
+<body class="app">
+    <div class="app-title">todos</div>
+
+    <div class="app-input-container">
+        <div class="app-select-all"><button class="select-all-button"><i class="arrow"></i></button></div>
+        <input class="app-input" placeholder="Insert new todo here!" autofocus>
+    </div>
+
+    <ul></ul>
+
+    <div class="app-details-box">
+        <div class="elements-left">
+            <span class="elements-left-nr"></span>
+            <span>Items left</span>
+        </div>
+        <div class="app-details-buttons">
+            <button class="app-button-all">All</button>
+            <button class="app-button-active">Active</button>
+            <button class="app-button-completed">Completed</button>
+        </div>
+        <div><button class="app-button-clear-completed">Clear completed</button></div>
+    </div>
+
+    <a class="github-link" href="https://github.com/tcalaf/TodoMVC"><i class="fa fa-github"> Github Source</i></a>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
